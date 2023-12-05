@@ -1,0 +1,13 @@
+prefix=/home/akshay/Desktop/ml_projects/new/venv
+exec_prefix=/home/akshay/Desktop/ml_projects/new/venv
+libdir=/home/akshay/Desktop/ml_projects/new/venv/lib
+sharedlibdir=/home/akshay/Desktop/ml_projects/new/venv/lib
+includedir=/home/akshay/Desktop/ml_projects/new/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
